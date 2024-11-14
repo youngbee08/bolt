@@ -187,6 +187,7 @@ section{
     color: #121D2B;
 }
 .section-items .coloured{
+    margin: 10px;
     background-color: #2F313F;
     border: var(--btn-boda);
     padding: var(--btn-2pad);
@@ -194,6 +195,7 @@ section{
     color: var(--col);
 }
 .section-items .plain{
+    margin: 10px;
     color: var(--col2);
     border: var(--btn-boda2);
     background-color:#f0f8ff;
@@ -271,10 +273,11 @@ section{
         flex-direction: column;
     }
     .img-con{
-        width: 80%;
+        width: 95%;
         border: 1px solid none;
         border-radius: 16px;
-        padding: 1rem;
+        /* padding: 1rem; */
+        margin: auto;
     
     }
     .img-con .car{
