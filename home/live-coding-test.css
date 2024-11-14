@@ -27,7 +27,7 @@
 /* css variables ends */
 /* header */
 header{
-    background-image: linear-gradient(to bottom right,  rgba(21, 21, 22, 0.32), rgba(26, 2, 20, 0.43)), url(bolt\ bg-img.webp);
+    background-image: linear-gradient(to bottom right,  rgba(21, 21, 22, 0.32), rgba(26, 2, 20, 0.43)), url(./bolt\ bg-img.webp);
     /* background-color: black; */
     background-repeat: no-repeat;
     background-size: cover;
