@@ -89,6 +89,17 @@ header{
 }
 /* media query 4 d header */
 @media screen and (max-width:720px), (max-width:800px), (max-width:850px) {
+    header{
+        background-image: linear-gradient(to bottom right,  rgba(21, 21, 22, 0.32), rgba(26, 2, 20, 0.43)), url(./bolt\ bg-img.webp);
+        /* background-color: black; */
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* background-position: 45deg; */
+        /* align-items: center; */
+        /* height: 100%; */
+        color: var(--col);
+        /* padding: 1rem; */
+    }
     .header-items{
         display: flex;
         justify-content: space-between;
