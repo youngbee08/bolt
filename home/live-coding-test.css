@@ -106,7 +106,7 @@ header{
         width:40%;
         height: 40%;
         object-fit: cover;
-        padding-left: 3rem;
+        padding-left: 1.2rem;
     }
     .bolt-items{
         transform: translateX(0rem);
@@ -123,6 +123,10 @@ header{
     .register, .support{
         opacity: 0;
         /* display: none; */
+    }
+    .fa-bars{
+        display: block;
+        padding-right: 1.3rem;
     }
 }
 /* media query 4 d header ends */
