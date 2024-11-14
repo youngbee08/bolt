@@ -163,7 +163,7 @@ header{
     transition: 0.7s;
 }
 /* media query for hero part */
-@media screen and (max-width:800px) {
+@media screen and (max-width:720px), (max-width:800px) {
     .hero{
         /* font-weight: 400; */
         padding-left: 1rem;
@@ -264,7 +264,7 @@ section{
     transition: 1s;
 }
 /* media query 4 dive */
-@media screen and (max-width:800px){
+@media screen and (max-width:720px), (max-width:800px){
     .dive{
         margin-top: 5rem;
         /* margin: auto; */
@@ -349,7 +349,7 @@ section{
     max-width: 12rem;
 }
 /* media query for service */
-@media screen and (max-width:800px), (max-width:910px) {
+@media screen and (max-width:720px), (max-width:800px), (max-width:910px) {
     .services{
         text-align: start;
         padding: 1rem;
